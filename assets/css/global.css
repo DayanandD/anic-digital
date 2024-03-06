@@ -1,0 +1,26 @@
+p{
+  font-size: 15px;
+  text-align: justify;
+  
+}
+.choose-us-img-2{
+    align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.choose-us-img-2 img {
+    transition: transform 1s ease; /* Transition effect for scaling */
+}
+
+.choose-us-img img:hover {
+   transform: rotateX(var(--rotateX))rotateY(var(--rotateY));
+  --rotateX: -4.570528967254408deg;
+  --rotateY: -3.9212239583333326deg;
+}
+
+
+.spanc-para{
+  color: #c415a1;
+  font-weight: 600;
+}
